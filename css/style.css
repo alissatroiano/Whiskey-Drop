@@ -7,7 +7,7 @@ body {
 .container-wrapper {}
 
 .container-wrapper--red {
-    background-color: #f05f40;
+    background-color: #193838;
     color: white;
 }
 
@@ -73,6 +73,9 @@ body {
     font-weight: bold;
 }
 
+.lead {
+    font-size: 16px;
+}
 
 /* Jumbotron */
 
@@ -108,7 +111,7 @@ body {
 }
 
 .block-divider--orange {
-    background-color: #f05f40;
+    background-color: #69a8a9;
 }
 
 .block-divider--white {
@@ -125,34 +128,46 @@ body {
     font-weight: bold;
     border-radius: 23px;
     width: 160px;
+    font-size: 15px;
 }
 
 .btn--red {
-    color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
+    color: black;
+    background-color: #69a8a8;
+    border-color: #69a8a8;
 }
 
-.btn--red:hover,
+.btn--red:hover {
+    background-color: #193838;
+    border-color: #193838;
+    color: #ffffff;
+}
+
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
+    background-color: #69a8a9;
+    border-color: #69a8a9;
     color: white;
 }
+
+.badge-success {
+    background-color: #69a8a9;
+}
+
 
 /* Alert */
 
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
+    font-size: 11px;
+    text-align: center;
 }
 
 .site-wide-alert {
-    color: #544600;
-    background-color: #eec802;
-    border-color: #eec802;
+    color: lightgrey;
+    background-color: #193838;
     padding: 5px 15px;
     margin-bottom: 0;
     border: 1px solid transparent;
@@ -197,5 +212,5 @@ body {
     min-width: 100px;
     font-weight: bold;
     margin-top: 10px;
-    color: #f05f40;
+    color: #69a8a9;
 }
